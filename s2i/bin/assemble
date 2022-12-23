@@ -1,6 +1,5 @@
 #!/bin/bash -e
 #
-#
 cp -f /tmp/src/*.war ${DEPLOYMENT_DIR}
 echo "java -jar ${INSTALL_DIR}/${PAYARA_JAR} --deploymentDir ${DEPLOYMENT_DIR}" > ${INSTALL_DIR}/start.sh
 chmod a+rwx ${INSTALL_DIR}/start.sh
