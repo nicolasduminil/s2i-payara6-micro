@@ -1,0 +1,12 @@
+#!/bin/bash -e
+cat <<EOF
+This is the nicolasduminil/s2i-payara6-micro
+To use it, install S2I: https://github.com/openshift/source-to-image
+
+Sample invocation:
+
+s2i build <source code path/URL> nicolasduminil/s2i-payara6-micro <application image>
+
+You can then run the resulting image via:
+docker run <application image>
+EOF

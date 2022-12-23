@@ -1,0 +1,6 @@
+#!/bin/bash -e
+#
+echo "### Starting Payara Micro 6.2022.1 with user id: $(id) and group $(id -G)"
+echo "### Starting at $(date)"
+exec ${INSTALL_DIR}/start.sh
+
