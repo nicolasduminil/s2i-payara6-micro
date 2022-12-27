@@ -1,6 +1,6 @@
 # s2i-payara6-micro
 
-This a Docker image uses a Payara Micro 6 s2i (Source To Image) builder to binay deploy Payara Micro 6 to OpenShift.
+This an OpenShift custom container image for Payara Micro 6.2022.1 to be used with the S2I (Source to Image) utility.
 
 ## Getting Started
 
