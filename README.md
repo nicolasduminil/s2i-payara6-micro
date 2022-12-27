@@ -1,6 +1,6 @@
 # s2i-payara6-micro
 
-This an OpenShift custom container image for Payara Micro 6.2022.1 to be used with the S2I (Source to Image) utility.
+This an OpenShift application container image for Payara Micro 6.2022.1 to be used with the S2I (Source to Image) utility.
 
 ## Getting Started
 
